@@ -270,6 +270,7 @@ section.banner {
     grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 1rem;
     margin-top: 2rem;
+
 }
 
 .machine-list-filter a {
