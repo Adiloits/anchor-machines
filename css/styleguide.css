@@ -2,6 +2,8 @@
   --banana: #fed730;
   --black: #040405;
   --black-2: #000000;
+  --storm-dust: #626262;
+
   --candlelight: #ffcc17;
   --gray-nurse: #eae8e8;
   --white: #ffffff;
@@ -115,6 +117,14 @@
   font-weight: 900;
 }
 
+.playfairdisplay-bold-black-15px {
+  color: var(--black);
+  font-family: var(--font-family-playfair_display);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+
 .playfairdisplay-bold-black-18px {
   color: var(--black);
   font-family: var(--font-family-playfair_display);
@@ -157,6 +167,14 @@
   color: var(--white);
   font-family: var(--font-family-playfair_display);
   font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.playfairdisplay-normal-storm-dust-11px {
+  color: var(--storm-dust);
+  font-family: var(--font-family-playfair_display);
+  font-size: var(--font-size-s);
   font-style: normal;
   font-weight: 400;
 }
